@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PG_Notification_App</string>
+    <string name="login">Login</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="channel_name">com.example.pg_notification_app</string>
+    <string name="channel_description">\"\"</string>
+</resources>

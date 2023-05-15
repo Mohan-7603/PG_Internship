@@ -1,0 +1,19 @@
+<resources>
+
+    <style name="Widget.Theme.PG_Notification_App.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+    <style name="Theme.MyApp.Dark" parent="Theme.AppCompat">
+        <item name="android:windowBackground">@color/black</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/black</item>
+    </style>
+
+    <style name="Theme.MyApp.Light" parent="Theme.AppCompat">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/white</item>
+    </style>
+
+</resources>

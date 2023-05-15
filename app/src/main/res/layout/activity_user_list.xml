@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/home4">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="4dp"
+        android:background="@drawable/home4"
+        android:backgroundTint="@color/background">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/user_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/home4"
+            android:padding="5dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/user_item" />
+        <!--        app:layout_constraintTop_toBottomOf="@+id/notification_message"-->
+
+    </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:id="@+id/save1_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:backgroundTint="@color/background"/>
+
+</LinearLayout>
